@@ -15,12 +15,12 @@ html {
 }
 
 body {
-    background: linear-gradient(70deg, rgba(174,12,185,1) 29%, rgba(221,17,110,1) 70%);
-    padding: 0;
-    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right top, #893278, #98307f, #a72d85, #b6288b, #c62190, #c61a94, #c51198, #c4049c, #b006a0, #9b0ea4, #8316a6, #681da8);    margin: 0;
     overflow: hidden;
     background-repeat: no-repeat;
-    width: 100%;
+    scrollbar-width: none;
 }
 
 /* == Banner == */
@@ -79,7 +79,7 @@ li {
 .container {
     display: inline;
     justify-content: center;
-    width: 100%;
+    width: auto;
 }
 
 .mainTitle {
@@ -141,6 +141,11 @@ li {
 }
 
 /* == Buy It == */
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .buyitButtonArea {
     display: flex;
     justify-content: center;
