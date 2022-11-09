@@ -6,13 +6,13 @@ var currentSneakers = 1
 
 buttonLeft.addEventListener('click', function handleClick() {
     if(currentSneakers == 1) {
-        sneakersDisplay.style("transition-property: opacity, left, top, height; transition-duration: 3s, 5s;")
+        sneakersDisplay.setAttribute("src", "assets/sneaker3.png")
         currentSneakers = 3
     } else if(currentSneakers == 2) {
-        sneakersDisplay.style("transition-property: opacity, left, top, height; transition-duration: 3s, 5s;")
+        sneakersDisplay.setAttribute("src", "assets/sneaker.png")
         currentSneakers = 1
     } else if(currentSneakers == 3) {
-        sneakersDisplay.style("transition-property: opacity, left, top, height; transition-duration: 3s, 5s;")
+        sneakersDisplay.setAttribute("src", "assets/sneaker2.png")
         currentSneakers = 2
     }
 });
