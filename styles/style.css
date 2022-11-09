@@ -95,7 +95,7 @@ li {
 
 .sneakersImage {
     width: 17%;
-    filter: drop-shadow(20px 30px 40px #000000);
+    filter: drop-shadow(5px 5px 45px #000000);
 }
 
 /* == Chevron Image == */
@@ -111,11 +111,20 @@ li {
     margin-left: 65px;
 }
 
+.fa-chevron-left:hover {
+    font-size: 60px;
+}
+
+.fa-chevron-right:hover {
+    font-size: 60px;
+}
+
 /* == Text Container == */
 .textContainer {
     /* haut | droit | bas | gauche */
-    padding: 0 25% 0 25%;
+    padding: 0 35% 0 35%;
     font-family: monospace;
+    color: white;
 }
 
 /* == Buy It == */
@@ -125,14 +134,14 @@ li {
     align-items: center;
     width: 100%;
     height: auto;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .buyitButton {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 50%;
     height: 35px;
     color: white;
     border-radius: 25px;
