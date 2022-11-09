@@ -5,7 +5,6 @@
 
 body {
     background: linear-gradient(70deg, rgba(174,12,185,1) 29%, rgba(192,0,255,1) 70%);
-    /* background-color: red; */
     padding: 0;
     margin: 0;
 }
@@ -62,7 +61,8 @@ li {
     margin-right: 75px;
 }
 
-/* == Container == */
+/* ====== Container ====== */
+/* == Container Edit == */
 .container {
     display: inline;
     justify-content: center;
@@ -81,17 +81,26 @@ li {
     font-size: 45px;
     font-family: "JordanFont";
     font-weight: normal;
-    /* background-color: yellow; */
 }
 
+/* == Image == */
 .sneakersImageBanner {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* background-color: red; */
 }
 
 .sneakersImage {
     width: 20%;
+    filter: drop-shadow(20px 30px 40px #000000);
+}
+
+/* == Chevron Image == */
+.fa-chevron-left {
+    color: white;
+}
+
+.fa-chevron-right {
+    color: white;
 }
