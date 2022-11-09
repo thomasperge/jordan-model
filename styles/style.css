@@ -3,8 +3,13 @@
     src: url("/font/haettenschweiler_[fr.allfont.net].ttf");
 }
 
+@font-face {
+    font-family: "SpotifyFont";
+    src: url("/font/GothamMedium.ttf");
+}
+
 body {
-    background: linear-gradient(70deg, rgba(174,12,185,1) 29%, rgba(192,0,255,1) 70%);
+    background: linear-gradient(70deg, rgba(174,12,185,1) 29%, rgba(221,17,110,1) 70%);
     /* background-color: darkcyan; */
     padding: 0;
     margin: 0;
@@ -96,6 +101,8 @@ li {
 .sneakersImage {
     width: 17%;
     filter: drop-shadow(5px 5px 45px #000000);
+    transition-property: opacity, left, top, height;
+    transition-duration: 3s, 5s;
 }
 
 /* == Chevron Image == */
@@ -112,18 +119,20 @@ li {
 }
 
 .fa-chevron-left:hover {
-    font-size: 60px;
+    -webkit-transform:scale(0.9);
+    transform:scale(0.9);
 }
 
 .fa-chevron-right:hover {
-    font-size: 60px;
+    -webkit-transform:scale(0.9);
+    transform:scale(0.9);
 }
 
 /* == Text Container == */
 .textContainer {
     /* haut | droit | bas | gauche */
     padding: 0 35% 0 35%;
-    font-family: monospace;
+    font-family: "SpotifyFont";
     color: white;
 }
 
@@ -145,8 +154,8 @@ li {
     height: 35px;
     color: white;
     border-radius: 25px;
-    font-family: "JordanFont";
+    font-family: "SpotifyFont";
     font-weight: normal;
-    font-size: 25px;
+    font-size: 20px;
     background-color: black;
 }
